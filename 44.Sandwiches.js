@@ -1,0 +1,11 @@
+"use strict";
+function sandwich(...items) {
+    console.log("sandwich order:");
+    for (let i = 0; i < items.length; i++) {
+        console.log(`-${items[i]}`);
+    }
+}
+console.log("Enjoy your sandwich");
+sandwich("chiken", "mayo");
+sandwich("chiken", "chilli sauce");
+sandwich("beef", "cheese");
